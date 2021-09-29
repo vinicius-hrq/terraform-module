@@ -5,7 +5,7 @@ variable "name" {
 
 variable "enable_sg" {
   type        = bool
-  default     = true
+  default     = false
   description = "Habilitar funcionalidade de criação do SG"
 }
 
